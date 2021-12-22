@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="napol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-19 08:36:26 "/>
+        <attribute name="created" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDg6MjQ6NTggIjsyODE0"/>
+        <attribute name="edited" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDg6MzY6MjYgIjsxOzI5MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, Media" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="MEDIA" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="Media" newline="True"/>
+            <if expression="Media&gt;=7">
+                <then>
+                    <output expression="&quot;Voc&#234; foi APROVADO, Parab&#233;ns&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; foi reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

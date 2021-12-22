@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="napol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-19 09:15:28 "/>
+        <attribute name="created" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDk6MDY6NDkgIjsyODE1"/>
+        <attribute name="edited" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDk6MTU6MjggIjsyOzI5MjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero, Limite" type="Integer" array="False" size=""/>
+            <assign variable="Numero" expression="0"/>
+            <assign variable="Limite" expression="20"/>
+            <while expression="Numero &lt;= Limite">
+                <output expression="Numero" newline="True"/>
+                <assign variable="Numero" expression="Numero + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

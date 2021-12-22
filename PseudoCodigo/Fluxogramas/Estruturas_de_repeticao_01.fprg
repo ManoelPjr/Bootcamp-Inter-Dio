@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="napol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-19 09:27:09 "/>
+        <attribute name="created" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDk6MDY6NDkgIjsyODE1"/>
+        <attribute name="edited" value="bmFwb2w7UVVBVFJPLVdJTkRPV1M7MjAyMS0xMi0xOTsiMDk6Mjc6MDkgIjs2OzI5Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero, Contador, Limite" type="Integer" array="False" size=""/>
+            <assign variable="Numero" expression="9"/>
+            <assign variable="Contador" expression="1"/>
+            <assign variable="Limite" expression="90"/>
+            <while expression="Numero &lt;= Limite">
+                <output expression="&quot;9X&quot;&amp;Contador&amp;&quot;=&quot;&amp;Numero" newline="True"/>
+                <assign variable="Contador" expression="Contador +1"/>
+                <assign variable="Numero" expression="Numero + 9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
