@@ -45,3 +45,18 @@ a{
 .post_image{
     margin-bottom: 15px;
 }
+
+.contact_list{
+    list-style-type: none;
+}
+
+.contact_list li a {
+    text-decoration: none;
+}
+.contact_list1{
+    list-style-type: upper-roman;
+}
+
+.contact_list1 li a {
+    text-decoration: underline;
+}
