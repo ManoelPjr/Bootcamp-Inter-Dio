@@ -6,6 +6,8 @@ border-radius: 50%;
 body{
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 a{
@@ -40,10 +42,12 @@ a{
     border: 0px;
     border-bottom: 15px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contact_list{
