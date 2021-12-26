@@ -6,9 +6,16 @@ var desconto = 0.20;
 const PRECO = 2.00; //Constantes Não podem ser alteradas em runtime
 total = PRECO - desconto;*/
 
-function calculaDesconto(preco,desconto){
-    console.log = preco - desconto;
-return preco - desconto;
+function retornaNumerosPares(array){
+    let numerosPares = [];
+    for(let i = 0; i<array.length; i++){
+        if (array[i] % 2 === 0){
+            numerosPares.push(array[i]);
+        }else {
+            console.log(`${array[i]} não é par!`)
+        }
+    }
+    console.log('Os números pares são: ', numerosPares);
 }
-
-var total = calculaDesconto(2.00 , 0.20); //chamando a função
+let array = [1, 2, 4, 5, 7, 8];
+retornaNumerosPares(array);
