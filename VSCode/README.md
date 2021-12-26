@@ -1,5 +1,5 @@
 # Bootcamp-Inter-Dio
-Repositório de Códigos e atividades desenvolvidas no curso IDE Instalaçao e configuração (Visual Studio Code)
+Repositório de Códigos e atividades desenvolvidas no curso IDE Instalação e configuração (Visual Studio Code)
 
 
 
