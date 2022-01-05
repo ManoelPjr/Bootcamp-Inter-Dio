@@ -1,3 +1,4 @@
+// Variáveis devem ser declaradas em camelCase
 var firstName = 'Manoel'; //VAR pode ser lida no escopo global
 var lastName = 'Pedro'; //VAR pode ser lida no escopo global
 
